@@ -16,6 +16,7 @@ h2, h3 {
 
 p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 2vw;
 }
 
 .content {
@@ -104,11 +105,12 @@ div.content {
         background-color: white;
         margin-bottom: -5vh;
         width: 50vw;
-        height: 56vh;
         padding-left: 2vw;
+        padding-right: 1vw;
         border-radius: 0 15px 0 0;
         left: 0;
         top: 30vw;
+        min-height: 65vh;
     }
 
         .container .mytextbox h2 {
