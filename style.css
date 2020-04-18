@@ -152,8 +152,6 @@ div.content {
 .myBadge {
     background-color: white;
     width: 280px;
-    max-width: 28vw;
-    overflow: auto;
 }
 
 
@@ -196,20 +194,22 @@ div.content {
     margin-bottom: -1px;
 }
 
-@media screen and (max-width: 400px) {
-    .mylogo {
+@media screen and (max-width: 470px) {
+
+}
+
+@media screen and (max-width: 630px) {
+}
+
+@media screen and (max-width: 955px) {
+    .contactTextimg {
+        display: none;
+    }
+
+    .contactText {
         float: left;
-    }
-
-    .mainImg {
-        margin: unset;
-        padding: unset;
-        width: 100vw;
-        height: auto;
-    }
-
-    .sidebar a {
-        text-align: center;
-        float: none;
+        padding-top: 5vh;
+        padding-left: 5vw;
+        color: white;
     }
 }
