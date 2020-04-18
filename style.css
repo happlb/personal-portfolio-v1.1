@@ -132,6 +132,12 @@ div.content {
     font-size: 2vw;
 }
 
+/*editor*/
+
+#editor{
+    height:400px;
+}
+
 @media screen and (max-width: 400px) {
     .mylogo {
         float: left;
