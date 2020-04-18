@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.override {
+    background-color: black;
+}
+
 body {
     margin: 0;
 }
@@ -30,7 +34,7 @@ p {
     height: 90vh;
     max-height: 90vh;
     overflow: auto;
-    font-size: 3vw;
+    font-size: 5vh;
     background-color: #FF0000;
 }
 
@@ -49,7 +53,7 @@ p {
         }
 
         .sidebar a:hover:not(.active) {
-            color: black;
+            color: white;
         }
 
 .miniFooter {
@@ -97,7 +101,8 @@ div.content {
         position: absolute;
         background-color: white;
         margin-bottom: -5vh;
-        width: 40vw;
+        width: 50vw;
+        height: 56vh;
         padding-left: 2vw;
         border-radius: 0 15px 0 0;
         left: 0;
