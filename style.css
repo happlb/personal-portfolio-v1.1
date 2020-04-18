@@ -144,7 +144,7 @@ div.content {
 
 .contactText {
     float: right;
-    padding-top: 15vh;
+    padding-top: 5vh;
     padding-right: 8vw;
     color: white;
 }
@@ -152,6 +152,8 @@ div.content {
 .myBadge {
     background-color: white;
     width: 280px;
+    max-width: 28vw;
+    overflow: auto;
 }
 
 
