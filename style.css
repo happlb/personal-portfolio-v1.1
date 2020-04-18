@@ -140,6 +140,29 @@ div.content {
     height:400px;
 }
 
+/*contact*/
+
+.contactText {
+    float: right;
+    padding-top: 15vh;
+    padding-right: 8vw;
+    color: white;
+}
+.myBadge {
+    background-color: white;
+    width: 280px;
+}
+
+
+.contactTextimg {
+    position: fixed;
+    left: 1vw;
+    top: 25vh;
+    width: 35vw;
+    height: auto;
+    opacity: .8;
+}
+
 @media screen and (max-width: 400px) {
     .mylogo {
         float: left;
