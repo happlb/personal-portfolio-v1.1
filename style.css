@@ -164,7 +164,7 @@ div.content {
     opacity: .8;
 }
 /*portfolio*/
-/*portfolio*/
+
 .portfolioBox {
     background-color: white;
     border: 5px solid #11A8AE;
@@ -184,6 +184,10 @@ div.content {
 
     .portfolioContainer p {
         margin: 5px;
+    }
+    .portfolioContainer img {
+        width:2vw;
+        height:auto;
     }
 
 .portfolioBox:last-child {
