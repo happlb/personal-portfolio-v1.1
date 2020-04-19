@@ -362,6 +362,75 @@ div.content {
     }
 }
 
+
+div.content {
+    padding-top: 1vh;
+}
+
+.mainImg {
+    width: 95vw;
+    height: auto;
+    position: absolute;
+    left: 0;
+}
+
+
+
+.container {
+    position: relative;
+}
+
+    .container .mytextbox {
+        position: absolute;
+        background-color: white;
+        width: 70vw;
+        padding-left: 2vw;
+        padding-right: 1vw;
+        border-radius: 0 15px 0 0;
+        left: 0;
+        top: 40vw;
+    }
+
+        .container .mytextbox h2 {
+            font-size: 8vw
+        }
+
+        .container .mytextbox p {
+            font-size: 4.5vw
+        }
+
+.portfolioBox {
+    background-color: white;
+    border: 5px solid #11A8AE;
+    margin-bottom: 10px;
+}
+
+.portfolioContainer {
+    max-height: 78vh;
+    width: 95vw;
+    overflow: auto;
+}
+
+    .portfolioContainer h3 {
+        font-size: 4vw;
+    }
+
+    .portfolioContainer p {
+        font-size: 3vw;
+    }
+
+.portfolioBox:last-child {
+    margin-bottom: -1px;
+}
+
+.contactText h2 {
+    font-size: 8vw;
+}
+
+.contactText h3 {
+    font-size: 5vw;
+}
+
 @media screen and (max-width: 630px) {
 }
 
