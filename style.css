@@ -213,29 +213,44 @@ div.content {
     display: none
 }
 
+
+
+
+
+@media screen and (max-width: 955px) {
+    .contactTextimg {
+        display: none;
+    }
+
+    .contactText {
+        float: left;
+        padding-top: 5vh;
+        padding-left: 5vw;
+        color: white;
+    }
+}
+
+
+
+
 @media screen and (max-width: 470px) {
     .sidebar {
         display: none;
     }
 
     .mylogo {
-        border-right: 15px solid #11A8AE;
-        position: absolute;
-        top: 0;
-        right: 0;
+        float: right;
         height: 10vh;
         width: auto;
-        float: right;
     }
 
     #editor {
-        display: none;
+        display: none !important;
     }
 
     #iframe {
-        background-color: black;
-        padding-top: 2vh;
-        padding-bottom: 5vh;
+        background-color: white;
+        padding-bottom: 10vh;
         height: 90vh !important;
         width: 95vw !important;
         display: inline-block;
@@ -244,27 +259,27 @@ div.content {
     #menuToggle {
         display: block;
         position: absolute;
-        top: 2.5vh;
-        left: 20px;
+        top: 10px;
+        left: 10px;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
     }
 
     .bar {
-        background-color: #FF0000;
-        height: 10vh;
+        color: black;
+        height: 10vh
     }
 
     #menuToggle a {
         text-decoration: none;
         color: white;
-        font-size: 2em;
-        margin-bottom: 5px;
         transition: color 0.3s ease;
     }
 
-
+        #menuToggle a:hover {
+            color: tomato;
+        }
 
 
     #menuToggle input {
@@ -341,6 +356,7 @@ div.content {
         padding-top: 120px;
         background: black;
         color: white;
+        font-weight: bold;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         /* to stop flickering of text in safari */
@@ -350,7 +366,7 @@ div.content {
     }
 
         #menu li {
-            padding: 20px;
+            padding: 10px;
             font-size: 22px;
         }
 
@@ -359,91 +375,5 @@ div.content {
  */
     #menuToggle input:checked ~ ul {
         transform: none;
-    }
-}
-
-
-div.content {
-    padding-top: 1vh;
-}
-
-.mainImg {
-    width: 95vw;
-    height: auto;
-    position: absolute;
-    left: 0;
-}
-
-
-
-.container {
-    position: relative;
-}
-
-    .container .mytextbox {
-        position: absolute;
-        background-color: white;
-        width: 70vw;
-        padding-left: 2vw;
-        padding-right: 1vw;
-        border-radius: 0 15px 0 0;
-        left: 0;
-        top: 40vw;
-        min-height: 60vh;
-    }
-
-        .container .mytextbox h2 {
-            font-size: 8vw
-        }
-
-        .container .mytextbox p {
-            font-size: 4.5vw
-        }
-
-.portfolioBox {
-    background-color: white;
-    border: 5px solid #11A8AE;
-    margin-bottom: 10px;
-}
-
-.portfolioContainer {
-    max-height: 78vh;
-    width: 95vw;
-    overflow: auto;
-}
-
-    .portfolioContainer h3 {
-        font-size: 4vw;
-    }
-
-    .portfolioContainer p {
-        font-size: 3vw;
-    }
-
-.portfolioBox:last-child {
-    margin-bottom: -1px;
-}
-
-.contactText h2 {
-    font-size: 8vw;
-}
-
-.contactText h3 {
-    font-size: 5vw;
-}
-
-@media screen and (max-width: 630px) {
-}
-
-@media screen and (max-width: 955px) {
-    .contactTextimg {
-        display: none;
-    }
-
-    .contactText {
-        float: left;
-        padding-top: 5vh;
-        padding-left: 5vw;
-        color: white;
     }
 }
