@@ -396,7 +396,7 @@ div.content {
         left: 0;
         top: 30vw;
         min-height: 55vh;
-        max-height: 62vh;
+        max-height: 55vh;
         overflow: auto;
     }
 
@@ -415,7 +415,7 @@ div.content {
     }
 
     .portfolioContainer {
-        max-height: 78vh;
+        max-height: 68vh;
         width: 95vw;
         margin-right: 8vw;
         overflow: auto;
