@@ -219,9 +219,13 @@ div.content {
     }
 
     .mylogo {
-        float: right;
+        border-right: 15px solid #11A8AE;
+        position: absolute;
+        top: 0;
+        right: 0;
         height: 10vh;
         width: auto;
+        float: right;
     }
 
     #editor {
@@ -247,8 +251,8 @@ div.content {
     }
 
     .bar {
-        color: black;
-        height: 10vh
+        color: #11A8AE;
+        height: 10vh;
     }
 
     #menuToggle a {
