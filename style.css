@@ -244,8 +244,8 @@ div.content {
     #menuToggle {
         display: block;
         position: absolute;
-        top: 10px;
-        left: 10px;
+        top: 2.5vh;
+        left: 20px;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
