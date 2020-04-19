@@ -407,4 +407,45 @@ div.content {
         .container .mytextbox p {
             font-size: 5vw
         }
+
+    .portfolioBox {
+        background-color: white;
+        border: 5px solid #11A8AE;
+        margin-bottom: 10px;
+    }
+
+    .portfolioContainer {
+        max-height: 78vh;
+        width: 95vw;
+        margin-right: 8vw;
+        overflow: auto;
+    }
+
+        .portfolioContainer h3 {
+            font-weight: bold;
+            margin: 5px;
+            font-size: 5vw;
+        }
+
+        .portfolioContainer p {
+            margin: 5px;
+            font-size: 3vw;
+        }
+
+        .portfolioContainer img {
+            width: 2vw;
+            height: auto;
+        }
+
+    .portfolioBox:last-child {
+        margin-bottom: -1px;
+    }
+
+    .contactText h3 {
+        font-size: 5vw;
+    }
+
+    .contactText h2 {
+        font-size: 8vw;
+    }
 }
