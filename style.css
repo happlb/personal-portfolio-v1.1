@@ -242,17 +242,18 @@ div.content {
         float: right;
         height: 10vh;
         width: auto;
+        border-right: 15px solid #11A8AE
     }
 
     #editor {
-        display: none !important;
+        display: none;
     }
 
     #iframe {
-        background-color: white;
+        background-color: black;
         padding-bottom: 10vh;
-        height: 90vh !important;
-        width: 95vw !important;
+        height: 90vh;
+        width: 95vw;
         display: inline-block;
     }
 
@@ -267,7 +268,7 @@ div.content {
     }
 
     .bar {
-        color: black;
+        background-color: #FF0000;
         height: 10vh
     }
 
@@ -278,7 +279,7 @@ div.content {
     }
 
         #menuToggle a:hover {
-            color: tomato;
+            color: #FF0000;
         }
 
 
