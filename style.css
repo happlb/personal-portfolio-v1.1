@@ -229,12 +229,7 @@ div.content {
     }
 
     #editor {
-        background-color: black;
-        padding-top: 2vh;
-        padding-bottom: 5vh;
-        height: 90vh !important;
-        width: 95vw !important;
-        display: inline-block;
+        display: none;
     }
 
     #iframe {
