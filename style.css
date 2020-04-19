@@ -233,8 +233,9 @@ div.content {
     }
 
     #iframe {
-        background-color: white;
-        padding-bottom: 10vh;
+        background-color: black;
+        padding-top: 2vh;
+        padding-bottom: 5vh;
         height: 90vh !important;
         width: 95vw !important;
         display: inline-block;
@@ -251,19 +252,19 @@ div.content {
     }
 
     .bar {
-        color: #11A8AE;
+        background-color: #FF0000;
         height: 10vh;
     }
 
     #menuToggle a {
         text-decoration: none;
         color: white;
+        font-size: 2em;
+        margin-bottom: 5px;
         transition: color 0.3s ease;
     }
 
-        #menuToggle a:hover {
-            color: tomato;
-        }
+
 
 
     #menuToggle input {
@@ -340,7 +341,6 @@ div.content {
         padding-top: 120px;
         background: black;
         color: white;
-        font-weight: bold;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         /* to stop flickering of text in safari */
@@ -350,7 +350,7 @@ div.content {
     }
 
         #menu li {
-            padding: 10px;
+            padding: 20px;
             font-size: 22px;
         }
 
