@@ -377,4 +377,34 @@ div.content {
     #menuToggle input:checked ~ ul {
         transform: none;
     }
+
+    .mainImg {
+        width: 95vw;
+        height: auto;
+        position: absolute;
+        left: 0;
+    }
+
+    .container .mytextbox {
+        position: absolute;
+        background-color: white;
+        margin-bottom: -5vh;
+        width: 80vw;
+        padding-left: 2vw;
+        padding-right: 1vw;
+        border-radius: 0 15px 0 0;
+        left: 0;
+        top: 30vw;
+        min-height: 55vh;
+        max-height: 62vh;
+        overflow: auto;
+    }
+
+        .container .mytextbox h2 {
+            font-size: 8vw
+        }
+
+        .container .mytextbox p {
+            font-size: 5vw
+        }
 }
