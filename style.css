@@ -390,17 +390,16 @@ div.content {
     .container .mytextbox {
         position: absolute;
         background-color: white;
-        margin-bottom: -5vh;
         width: 80vw;
         padding-left: 2vw;
         padding-right: 1vw;
         border-radius: 0 15px 0 0;
         left: 0;
         top: 20vh;
-       
+       min-height:unset;
         /*top: 30vw;
         min-height:45vh;*/
-        max-height: 42vh;
+        max-height: 50vh;
         overflow: auto;
     }
 
