@@ -214,6 +214,11 @@ div.content {
 }
 
 
+.resumebtn {
+    display: none;
+}
+
+
 
 
 
@@ -468,4 +473,33 @@ div.content {
             float: right;
             width: 35px;
         }
+    .content div embed {
+        display:none;
+    }
+
+    .resumebtn {
+        position: fixed;
+        top: 30vh;
+        left: 12vw;
+        display: unset;
+        background-color: #FF0000;
+        width: 75vw;
+        border: none;
+        color: white;
+        padding: 12px;
+        cursor: pointer;
+        font-size: 7vw;
+    }
+
+        .resumebtn a {
+            color: white;
+            float: right;
+        }
+
+        /* Darker background on mouse-over */
+        .resumebtn:hover {
+            font-weight: bold;
+        }
+
+
 }
