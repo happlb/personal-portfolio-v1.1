@@ -249,6 +249,7 @@ div.content {
         padding: 12px;
         cursor: pointer;
         font-size: 7vw;
+        border-radius: 15px;
     }
 
         .resumebtn a {
