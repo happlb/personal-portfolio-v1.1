@@ -233,6 +233,33 @@ div.content {
         padding-left: 5vw;
         color: white;
     }
+    .content div embed {
+        display: none;
+    }
+
+    .resumebtn {
+        position: fixed;
+        top: 20vh;
+        left: 7vw;
+        display: unset;
+        background-color: #FF0000;
+        width: 50vw;
+        border: none;
+        color: white;
+        padding: 12px;
+        cursor: pointer;
+        font-size: 7vw;
+    }
+
+        .resumebtn a {
+            color: white;
+            float: right;
+        }
+
+        /* Darker background on mouse-over */
+        .resumebtn:hover {
+            font-weight: bold;
+        }
 }
 
 
