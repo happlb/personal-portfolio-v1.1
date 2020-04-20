@@ -396,10 +396,10 @@ div.content {
         border-radius: 0 15px 0 0;
         left: 0;
         top: 20vh;
-       min-height:unset;
+        min-height:unset;
         /*top: 30vw;
         min-height:45vh;*/
-        max-height: 50vh;
+        max-height: 45vh;
         overflow: auto;
     }
 
