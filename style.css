@@ -397,10 +397,10 @@ div.content {
         border-radius: 0 15px 0 0;
         left: 0;
         top: 20vh;
-        height: 52vh;
+       
         /*top: 30vw;
         min-height:45vh;*/
-        max-height: 52vh;
+        max-height: 42vh;
         overflow: auto;
     }
 
