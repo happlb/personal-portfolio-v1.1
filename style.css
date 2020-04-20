@@ -415,7 +415,7 @@ div.content {
     }
 
     .portfolioContainer {
-        max-height: 63vh;
+        max-height: 65vh;
         width: 95vw;
         margin-right: 8vw;
         overflow: auto;
@@ -448,4 +448,20 @@ div.content {
     .contactText h2 {
         font-size: 8vw;
     }
+
+    .miniFooter {
+        width: 100vw;
+        height: 7vh;
+        font-size: small;
+        background-color: #11A8AE;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+        .miniFooter img {
+            padding: 5px;
+            float: right;
+            width: 35px;
+        }
 }
