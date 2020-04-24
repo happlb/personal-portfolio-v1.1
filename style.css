@@ -134,11 +134,27 @@ div.content {
     font-size: 2vw;
 }
 
-/*editor*/
+/*portfolioInner*/
+#carouselExampleControls {
+    width: 63vw;
+    margin-left: 2vw;
+}
 
+.carouselTextBox {
+    width: 63vw;
+    height: 140vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    padding: 15px;
+    background-color: white;
+}
 
+.contentPP {
+    max-height: 90vh;
+    overflow: auto;
+    width: 69vw
+}
 /*contact*/
-
 .contactText {
     float: right;
     padding-top: 5vh;
@@ -233,6 +249,7 @@ div.content {
         padding-left: 5vw;
         color: white;
     }
+
     .content div embed {
         display: none;
     }
@@ -501,8 +518,9 @@ div.content {
             float: right;
             width: 35px;
         }
+
     .content div embed {
-        display:none;
+        display: none;
     }
 
     .resumebtn {
@@ -528,6 +546,4 @@ div.content {
         .resumebtn:hover {
             font-weight: bold;
         }
-
-
 }

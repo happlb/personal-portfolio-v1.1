@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\projects",
+    "\\projects\\personalPort"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\projects\\personalPort\\design.html",
   "PreviewInSolutionExplorer": false
 }
