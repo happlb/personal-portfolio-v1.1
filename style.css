@@ -38,13 +38,14 @@ p {
     font-size: 5vh;
     background-color: #FF0000;
     border-right: 15px solid black;
+    text-align: right;
 }
 
     .sidebar a {
         font-family: 'Merriweather', serif;
         display: block;
         color: white;
-        padding: 1vh 20px 5px 100px;
+        padding: 0vh 20px 0px 0px;
         text-decoration: none;
         float: right;
     }
@@ -289,6 +290,7 @@ div.content {
         width: 95vw;
         margin-left: 2.5vw;
     }
+
         #carouselExampleControls .carousel-control-next {
             display: none;
         }
@@ -296,6 +298,7 @@ div.content {
         #carouselExampleControls .carousel-control-prev {
             display: none;
         }
+
     .carouselTextBox {
         width: 95vw;
         height: auto;
@@ -434,9 +437,8 @@ div.content {
  */
     #menu {
         position: absolute;
-        width: 300px;
+        width: 110vw;
         margin: -100px 0 0 -50px;
-        padding-right: 450px;
         padding-top: 120px;
         background: black;
         color: white;
