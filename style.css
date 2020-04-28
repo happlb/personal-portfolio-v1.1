@@ -142,11 +142,12 @@ div.content {
 
 .carouselTextBox {
     width: 63vw;
-    height: 140vh;
+    height: auto;
     margin-top: 2vh;
     margin-left: 2vw;
     padding: 15px;
     background-color: white;
+    margin-bottom: 2vh;
 }
 
 .contentPP {
@@ -284,6 +285,37 @@ div.content {
 
 
 @media screen and (max-width: 470px) {
+    #carouselExampleControls {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+        #carouselExampleControls .carousel-control-next {
+            display: none;
+        }
+
+        #carouselExampleControls .carousel-control-prev {
+            display: none;
+        }
+    .carouselTextBox {
+        width: 95vw;
+        height: auto;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        padding: 15px;
+        background-color: white;
+        margin-left: 2.5vw;
+    }
+
+    .contentPP {
+        max-height: 82vh;
+        overflow: auto;
+        width: 100vw;
+    }
+
+    .carouselTextBox p {
+        font-size: 5vw
+    }
+
     .sidebar {
         display: none;
     }
@@ -331,7 +363,6 @@ div.content {
 
         #menuToggle a:hover {
             color: #11A8AE;
-            ;
         }
 
 
